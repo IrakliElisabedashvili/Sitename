@@ -1,0 +1,932 @@
+/* Fonts Start */
+@font-face{
+    font-family: FjallaOne;
+    src: url('../fonts/FjallaOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: SourceSans;
+    src: url('../fonts/sourcesanspro-regular-webfont.ttf');
+}
+/* Fonts End */
+
+body{
+    background-color: #e4e4e4 !important;
+}
+
+
+/* ***** Header Background Container Start ***** */
+#headerback{
+    background-color: #3f4b51;
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+
+/* Site Title Column Start */
+#sitetitle{
+    padding-left: 0;
+}
+
+#sitetitle a{
+    font-family: FjallaOne;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+/* Site Title Column End */
+
+
+/* Header Icons Column Start */
+#headericons ul li{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#headericons ul li a{
+    padding: 7px 10px;
+    background-color: #364045;
+    color: #7c878b;
+    border-radius: 15%;
+    text-align: center;
+    transition: .8s ease-in;
+}
+
+#headericons ul li a:hover{
+    background-color: #2abde9;
+    color: white;
+}
+
+#headericons ul li a i{
+    font-size: 20px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Search Form Start */
+#headericons form{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none !important;
+}
+
+#headericons form input[type=text]{
+    background-color: #364045;
+    font-family: FjallaOne;
+    color: #7c878b;
+    border: none;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0px 0px 5px 5px;
+}
+
+#headericons form button{
+    border-radius: 0;
+    background-color: #364045;
+    color: white;
+    border: 1px solid #364045;
+    transition: .8s ease-in;
+}
+
+#headericons form button:hover{
+    background-color: #3f4b51;
+    border: 1px solid #3f4b51;
+}
+/* Search Form End */
+
+/* Header Icons Column End */
+
+/* ***** Header Background Container End ***** */
+
+
+/* ***** Navigation Container Start ***** */
+#navback{
+    background-color: #2abde9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+/* *** Nav Start *** */
+#navtop{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#navigation ul li a{
+    font-family: FjallaOne;
+    font-size: 14px;
+    color: white;
+    padding: 25px 30px;
+    border-right: 1px solid #55caed;
+    transition: .5s ease-in;
+}
+
+#navigation ul li a:hover{
+    background-color: #55caed;
+}
+
+#navigation ul li a.active{
+    background-color: #55caed;
+}
+
+#navigation ul li a.active:hover{
+    background-color: #2abde9;
+    color: #555;
+}
+
+/* *** Nav End *** */
+
+/* ***** Navigation Container End ***** */
+
+
+/* ***** Caption Container Start ***** */
+#captioncontainer{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#captioncolumn h2{
+    font-family: FjallaOne;
+    font-size: 30px;
+    color: #3f4b51;
+    line-height: 38px;
+    margin: 0;
+}
+
+#captioncolumn h3{
+    font-family: FjallaOne;
+    font-size: 16px;
+    color: #3f4b51;
+    margin: 0 0 15px;
+}
+
+#captioncolumn a{
+    font-family: FjallaOne;
+    font-size: 16px;
+    color: white;
+    background-color: #3f4b51;
+    border: none;
+    padding: 12px;
+    width: 12%;
+    transition: .5s ease-in;
+}
+
+#captioncolumn a:hover{
+    background-color: #2abde9;
+}
+/* ***** Caption Container End ***** */
+
+
+/* ***** Carousel Container Start ***** */
+#carouselcolumn{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#myCarousel ol{
+    display: none;
+}
+
+#myCarousel{
+    position: relative;
+}
+
+#myCarousel a.left.carousel-control{
+    background-image: none;
+    background: white;
+    opacity: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    position: absolute;
+    left: 15px;
+    top:50%;
+    color: #4496bc;
+    font-size: 27px;
+    text-align: center;
+}
+
+#myCarousel a.left.carousel-control:hover{
+    background-color: white;
+    opacity: 50%;
+}
+
+#myCarousel a.right.carousel-control{
+    background-image: none;
+    background: white;
+    opacity: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    position: absolute;
+    right: 15px;
+    top:50%;
+    color: #4496bc;
+    font-size: 27px;
+    text-align: center;
+}
+
+#myCarousel a.right.carousel-control:hover{
+    background-color: white;
+    opacity: 50%;
+}
+/* ***** Carousel Container End ***** */
+
+
+/* ***** Featured Container Start ***** */
+#featuredback{
+    padding: 30px 30px;
+    background-color: white;
+}
+
+/* Featured Title Column Start */
+#featuredtitlerow{
+    padding-bottom: 40px;
+}
+
+#featuredtitle h3{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color: #3f4b51;
+    margin: 0;
+    line-height: 28px;
+}
+
+#featuredtitle p{
+    font-family: SourceSans;
+    font-size: 16px;
+    color: #8d8c8c;
+    line-height: 20px;
+}
+/* Featured Title Column End */
+
+
+/* *** Featured Inside Container Start *** */
+#featuredinside{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#featuredinside .col-sm-4{
+    width: 33%;
+}
+
+#featuredinside h3{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color: #2abde9;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#featuredinside p{
+    font-family: SourceSans;
+    font-size: 16px;
+    color: #8d8c8c;
+}
+/* *** Featured Inside Container End *** */
+
+/* ***** Featured Container End ***** */
+
+
+/* ***** Three Article Container Start ***** */
+#threearticlecontainer{
+    padding: 60px 30px;
+    background-color: #f7f7f7;
+}
+
+/* Article Title Div Start */
+.articletitle{
+    margin-bottom: 20px;
+}
+
+.articletitle i{
+    display: inline;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 21px;
+    background-color: #2abde9;
+    color:white;
+    border-radius: 15%;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s ease-in;
+    margin-right: 15px;
+    float: left;
+}
+
+.articletitle i:hover{
+    background-color: #3f4b51;
+}
+
+.articletitle h3{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color: #3f4b51;
+    line-height: 20px;
+    margin: 0;
+    display: inline-block;
+}
+
+.articletitle h6{
+    font-family: SourceSans;
+    font-size: 16px;
+    color:#2abde9;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0;
+}
+/* Article Title Div End */
+
+#threearticlerow p{
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #8d8c8c;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#threearticlerow a{
+    padding: 7px 9px;
+    font-family: FjallaOne;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #2abde9;
+    transition: 1s ease-in;
+}
+
+#threearticlerow a i{
+    font-size: 18px;
+    transition: .8s ease-in;
+}
+
+#threearticlerow a:hover{
+    background-color: #364045;
+}
+
+#threearticlerow a:hover i{
+    transform: rotate(360deg);
+}
+
+/* ***** Three Article Container End ***** */
+
+
+/* ***** Vestibulum Auctor Container Start ***** */
+#vestibulumauctorcontainer{
+    padding: 60px 30px;
+    background-color: white;
+}
+
+/* *** Vestibulum Left Column Start *** */
+#vestibulumleftcolumn h4{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color: #3f4b51;
+    line-height: 28px;
+    margin: 0;
+}
+
+#vestibulumleftcolumn h6{
+    font-family: SourceSans;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2abde9;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#vestibulumleftcolumn p{
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #8d8c8c;
+    line-height: 22px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+#vestibulumleftcolumn a{
+    padding: 7px 9px;
+    font-family: FjallaOne;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #2abde9;
+    transition: 1s ease-in;
+}
+
+#vestibulumleftcolumn a:hover{
+    background-color: #364045;
+}
+
+#vestibulumleftfirstrow{
+    padding-bottom: 30px;
+}
+
+#vestibulumleftsecondrow{
+    padding-top: 30px;
+}
+/* *** Vestibulum Left Column End *** */
+
+
+/* *** Contact Us Column Start *** */
+
+/* Contact Us Title Div Start */
+.contactustitle{
+    margin-bottom: 20px;
+}
+
+.contactustitle i{
+    display: inline;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 21px;
+    background-color: #2abde9;
+    color:white;
+    border-radius: 15%;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s ease-in;
+    margin-right: 15px;
+    float: left;
+}
+
+.contactustitle i:hover{
+    background-color: #3f4b51;
+}
+
+.contactustitle h3{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color: #3f4b51;
+    line-height: 20px;
+    margin: 0;
+    display: inline-block;
+}
+
+.contactustitle h6{
+    font-family: SourceSans;
+    font-size: 16px;
+    color:#2abde9;
+    line-height: 20px;
+    display: block;
+    margin: 0;
+}
+/* Contact Us Title Div End */
+
+/* Form Elements Start */
+#contactuscolumn form input{
+    background-color: #f7f7f7;
+    padding: 18px 8px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+#contactuscolumn form textarea{
+    background-color: #f7f7f7;
+    padding: 18px 8px;
+    display: block;
+    width: 100%;
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #b2b2b2;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    min-height: 150px !important;
+}
+
+#contactuscolumn form button{
+    background-color: #2abde9;
+    padding: 9px 7px;
+    font-family: FjallaOne;
+    color: white;
+    font-size: 16px;
+    border: none;
+    transition: .8s ease-in;
+}
+
+#contactuscolumn form button:hover{
+    background-color: #364045;
+}
+/* Form Elements End */
+
+/* *** Contact Us Column End *** */
+
+/* ***** Vestibulum Auctor Container End ***** */
+
+
+/* ***** Footer Background Container Start ***** */
+#footerback{
+    background-color: #3f4b51;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+}
+
+#footercontainer{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Footer Row Start */
+#footerrow .col-sm-2 h5{
+    font-family: FjallaOne;
+    font-size: 20px;
+    color:white;
+    line-height: 26px;
+    margin: 0;
+}
+
+#footerrow .col-sm-2 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#footerrow .col-sm-2 ul li{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #4c5b61;
+}
+
+#footerrow .col-sm-2 ul li:last-of-type{
+    border: none;
+}
+
+#footerrow .col-sm-2 ul li a{
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #8099a1;
+    transition: .5s ease-in;
+}
+
+#footerrow .col-sm-2 ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* Footer Row End */
+
+/* ***** Footer Background Container End ***** */
+
+
+/* ***** Copyright Background Container Start ***** */
+#copyrightback{
+    background-color: #364045;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#copyrightcontainer{
+    padding: 0;
+}
+
+#copyrightcontainer p{
+    font-family: SourceSans;
+    font-size: 14px;
+    color: #8099a1;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+#copyrightcontainer p a{
+    color: #8099a1;
+    transition: .8s ease-in;
+}
+
+#copyrightcontainer p a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* ***** Copyright Background Container End ***** */
+
+
+
+@media only screen and (max-width:580px){
+    /* ***** Header Start ***** */
+
+    /* Site Title Start */
+    #sitetitle{
+        width: 100% !important;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    /* Site Title End */
+
+    /* *** Header Icons Start *** */
+    #headericons{
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    #headericons ul{
+        display: none;
+    }
+
+    /* Form Start */
+    #headericons form{
+        display: flex;
+        justify-content: center;
+        border-top: none !important;
+        overflow: hidden;
+        width: 95%;
+    }
+
+    #headericons form input[type=text]{
+        border-radius: 0;
+    }
+
+    #headericons .form-group{
+        width: 80%;
+    }
+    /* Form End */
+
+    /* *** Header Icons End *** */
+
+
+    /* ***** Header End ***** */
+
+
+    /* ***** Navigation Start ***** */
+    #navback{
+        margin: 0px 15px;
+        padding: 15px 15px;
+        max-height: 84px;
+        position: relative;
+        z-index: 100000;
+    }
+
+    #navtop{
+        display: inherit;
+        background-color: #3f4b51;
+        border-radius: 8px;
+    }
+
+    #navtoggle{
+        border: none;
+        margin-right: 8px;
+    }
+
+    #navtoggle .icon-bar{
+        border: 2px solid white;
+    }
+
+    #navigation{
+        border: none;
+    }
+
+    #navigation ul li a{
+        padding: 10px 0;
+        text-align: center;
+    }
+    /* ***** Navigation End ***** */
+
+
+    /* ***** Caption Container Start ***** */
+    #captioncontainer{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #captioncolumn{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #captioncolumn a{
+        font-size: 14px;
+        width: 20%;
+        padding: 10px 0px;
+    }
+    /* ***** Caption Container End ***** */
+
+
+    /* ***** Carousel Container Start ***** */
+    #carouselback{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* ***** Carousel Container End ***** */
+
+
+    /* ***** Featured Container Start ***** */
+    #featuredback{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #featuredinside{
+        display: inherit;
+    }
+
+    #featuredinside .col-sm-4{
+        width: 50%;
+        float: left;
+    }
+
+    #featuredinside .col-sm-4:last-child{
+        width: 100%;
+    }
+    /* ***** Featured Container End ***** */
+
+
+    /* ***** Three Article Container Start ***** */
+    #threearticlecontainer{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #threearticlecontainer .col-sm-4{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .articletitle h6{
+        display: block;
+    }
+
+    /* ***** Three Article Container End ***** */
+
+
+    /* ***** Vestibulum Auctor Container Start ***** */
+    #vestibulumauctorcontainer{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #vestibulumauctorcontainer img{
+        padding-bottom: 20px;
+    }
+
+    /* Contact Us Column Start */
+    #contactuscolumn{
+        margin-top: 60px;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    /* Contact Us Column End */
+
+    /* ***** Vestibulum Auctor Container End ***** */
+
+
+    /* ***** Footer Background Container Start ***** */
+    #footerback{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #footerrow .col-sm-2{
+        padding-bottom: 20px;
+    }
+    /* ***** Footer Background Container End ***** */
+
+
+    /* ***** Copyright Background Container Start ***** */
+    #copyrightback{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* ***** Copyright Background Container End ***** */
+}
+
+
+@media only screen and (max-width:420px){
+    /* ***** Header Background Container Start ***** */
+    #sitetitle{
+        width: 100% !important;
+    }
+
+    #headericons{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    /* ***** Header Background Container End ***** */
+
+
+    /* ***** Caption Container Start ***** */
+    #captioncontainer h2{
+        font-size: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    #captioncontainer h3{
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #captioncontainer a{
+        width: 30% !important;
+	    font-size:13px;
+    }
+    /* ***** Caption Container End ***** */
+
+
+    /* ***** Featured Background Container Start ***** */
+    #featuredback{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #featuredinsiderow .col-sm-4{
+        display: block;
+        width: 100%;
+    }
+    /* ***** Featured Background Container End ***** */
+
+
+    /* ***** Three Article Container Start ***** */
+    #threearticlecontainer{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* ***** Three Article Container End ***** */
+
+
+    /* ***** Vestibulum Auctor Container Start ***** */
+    #vestibulumleftcolumn img{
+        padding-bottom: 20px;
+    }
+    /* ***** Vestibulum Auctor Container End ***** */
+}
+
+
+
+@media only screen and (max-width:820px){
+    /* ***** Header Start ***** */
+    #sitetitle{
+        width: 50%;
+        padding-left: 15px;
+    }
+
+    #headericons{
+        width:50%;
+    }
+
+    #headericons input[type=text]{
+        float: left;
+    }
+    /* ***** Header End ***** */
+
+
+    /* ***** Caption Container Start ***** */
+    #captioncontainer h3{
+        margin: 10px 0;
+    }
+    #captioncolumn a{
+        width: 20%;
+    }
+    /* ***** Caption Container End ***** */
+
+
+    /* ***** Three Article Container Start ***** */
+    #threearticlecontainer .articletitle h3{
+        font-size: 18px;
+    }
+
+    #threearticlecontainer .articletitle h6{
+        font-size: 11px;
+    }
+    /* ***** Three Article Container End ***** */
+
+
+    /* ***** Footer Start ***** */
+    #footerback{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #footercontainer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ***** Footer End ***** */
+
+    /* ***** Copyright Start ***** */
+    #copyrightrow{
+        margin: 0;
+    }
+    /* ***** Copyright End ***** */
+}
